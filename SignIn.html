@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="SignIn.css">
+    <script src="https://kit.fontawesome.com/4e6b50c3ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="left">
+            <img src="Images/phones.png" alt="phone">
+            <img class="screen" src="Images/screen.jpg" alt="screen">
+        </div>
+        <div class="right"><div class="panel login">
+            <img id="logo" src="Images/instagram-logo.png" alt="logo">
+            <form>
+                <input class="input-box" type="text" name="username" required placeholder="Enter Phone number">
+                <input class="input-box" type="password" name="password" required placeholder=" Create password">
+                <input class="input-box" type="password" name="password" required placeholder=" Reenter password">
+                <input class="button" type="submit" name="login" value="Sign in" onclick="togglePopup()">
+                <div class="popup" id="popup-1">
+                  <div class="overlay"></div>
+                  <div class="content">
+                    <div class="close-btn" id="z" onclick="my()">&times;</div>
+                    <h1>Account Created</h1>
+                    <p>Refresh the page </p>
+                    <p>Instagram is a photo and video sharing social networking service owned by American company 
+                      Meta Platforms. The app allows users to upload media that can be edited with filters, be
+                       organized by hashtags, and be associated with a location via geographical tagging. Posts
+                        can be shared publicly or with preapproved followers. </p>
+                  </div>
+                </div>
+                <!-- <button class="button"  onclick="togglePopup()">Sign In</button> -->
+                <div class="divider">
+                    <div class="line"></div>
+                    <p>OR</p>
+                    <div class="line"></div>
+                </div>
+                <a class="fb" href="*">Login with facebook</a>
+                <!-- <a class="forgot" href="*">Forgot password</a> -->
+            </form>
+        </div>
+        <div class="panel signup">
+            <p>Login to Account</p>
+            <a href="login.html">Login</a>
+        </div>
+        <div class="apps">
+            <p>Get the app.</p>
+            <div class="app-stores">
+                <img src="Images/app-store.svg" alt="App Store">
+                <img src="Images/play-store.svg" alt="Play Store">
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <ul>
+            <li>&copy; 2023 Instagram from the.stupid07</li>
+        </ul>
+    </footer>
+</body>
+</html>
